@@ -1,0 +1,25 @@
+.card-img-top {
+    height: 450px; /* Atur tinggi gambar */
+    object-fit: cover; /* Menjaga gambar tetap sesuai tanpa distorsi */
+}
+
+.card-body {
+    min-height: 125px; /* Sesuaikan nilai sesuai kebutuhan */
+}
+.hover-zoom {
+    transition: transform 0.3s ease; /* Durasi transisi */
+}
+
+.hover-zoom:hover {
+    transform: scale(1.02); /* Perbesar gambar 10% */
+}
+.hover-zoom:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Bayangan */
+}
+
+.card a {
+    color: black; /* Mengubah warna teks link menjadi hitam hanya untuk link di dalam card */
+    text-decoration: none; /* Menghilangkan underline pada link */
+}
+
